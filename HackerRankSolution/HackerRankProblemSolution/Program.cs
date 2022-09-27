@@ -22,6 +22,17 @@ namespace HackerRankProblemSolution
             TimeConversion timeConversion = new TimeConversion();
             timeConversion.TimeConvert("07:05:45PM");
             */
+
+            /*****Nearest Multiple*****/
+            //num=num+(5-(num%5))
+            /*
+            NearestMultipleOf5 nearestMultipleOf5 = new NearestMultipleOf5();
+            nearestMultipleOf5.NearestMultiple(new List<int> { 73, 67, 38, 33 });
+            */
+
+            /*****AppleOranges*****/
+            AppleOrange apple = new AppleOrange();
+            apple.countApplesAndOranges(7, 10, 4, 12, new List<int> { 2, 3, -4 }, new List<int> { 3, -2, -4 });
         }
     }
 }
