@@ -1,0 +1,7 @@
+C:\MyDataStructureAlgoTutorial\HackerRank\HackerRankProblemSolution\bin\Debug\HackerRankProblemSolution.exe.config
+C:\MyDataStructureAlgoTutorial\HackerRank\HackerRankProblemSolution\bin\Debug\HackerRankProblemSolution.exe
+C:\MyDataStructureAlgoTutorial\HackerRank\HackerRankProblemSolution\bin\Debug\HackerRankProblemSolution.pdb
+C:\MyDataStructureAlgoTutorial\HackerRank\HackerRankProblemSolution\obj\Debug\HackerRankProblemSolution.csproj.AssemblyReference.cache
+C:\MyDataStructureAlgoTutorial\HackerRank\HackerRankProblemSolution\obj\Debug\HackerRankProblemSolution.csproj.CoreCompileInputs.cache
+C:\MyDataStructureAlgoTutorial\HackerRank\HackerRankProblemSolution\obj\Debug\HackerRankProblemSolution.exe
+C:\MyDataStructureAlgoTutorial\HackerRank\HackerRankProblemSolution\obj\Debug\HackerRankProblemSolution.pdb
