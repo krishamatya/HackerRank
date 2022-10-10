@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AppleOrange.cs" />
     <Compile Include="BirthdayCandles.cs" />
+    <Compile Include="BreakingRecords.cs" />
     <Compile Include="NearestMultipleOf5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -52,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="NumberLineJump.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

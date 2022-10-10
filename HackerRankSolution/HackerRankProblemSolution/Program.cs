@@ -31,8 +31,20 @@ namespace HackerRankProblemSolution
             */
 
             /*****AppleOranges*****/
-            AppleOrange apple = new AppleOrange();
-            apple.countApplesAndOranges(7, 10, 4, 12, new List<int> { 2, 3, -4 }, new List<int> { 3, -2, -4 });
+            /* AppleOrange apple = new AppleOrange();
+             apple.countApplesAndOranges(7, 10, 4, 12, new List<int> { 2, 3, -4 }, new List<int> { 3, -2, -4 });
+            */
+            /****NumberLineJump******/
+
+            /*****NumberLineJump*****/
+            /*
+            NumberLineJump numberLineJump = new NumberLineJump();
+            Console.WriteLine(numberLineJump.kangaroo(0, 2, 5, 3));
+            */
+
+            /**** BreakingRecords**********/
+            BreakingRecords breakingRecords = new BreakingRecords();
+            breakingRecords.breakingRecords(new List<int>{ 10, 5, 20, 20, 4, 5, 2, 25, 1 });
         }
     }
 }
