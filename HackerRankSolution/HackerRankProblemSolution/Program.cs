@@ -59,9 +59,15 @@ namespace HackerRankProblemSolution
                 4,9,4,77,60,36,49,10,73,56,43,31,6,18,91,53,73,28,90,79,3,72,64,29,89,95,28,23,7,54,23,34,90,100,73,77,98,95,89,22,42,98,39,92,25,44,40,7,100,62,28,25,21,64,55,84,54,99,14,5,51,34,66,4,5,49,56 });
         */
             /****MigratoryBirds****/
-           /* MigratorBirds migrator = new MigratorBirds();
-            migrator.migratoryBirds(new List<int> { 1, 4, 4, 4, 5, 3 });
-           */
+            /* MigratorBirds migrator = new MigratorBirds();
+             migrator.migratoryBirds(new List<int> { 1, 4, 4, 4, 5, 3 });
+            */
+
+            /****DayOfProgramer****/
+            DaysOfProgrammer dt = new DaysOfProgrammer();
+            dt.dayOfProgrammer(2017);
+
+
         }
     }
 }

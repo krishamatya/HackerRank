@@ -46,6 +46,7 @@
     <Compile Include="AppleOrange.cs" />
     <Compile Include="BirthdayCandles.cs" />
     <Compile Include="BreakingRecords.cs" />
+    <Compile Include="DaysOfProgrammer.cs" />
     <Compile Include="DivisibleSumPair.cs" />
     <Compile Include="MigratoryBirds.cs" />
     <Compile Include="NearestMultipleOf5.cs" />
