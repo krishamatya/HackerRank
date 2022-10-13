@@ -65,7 +65,7 @@ namespace HackerRankProblemSolution
 
             /****DayOfProgramer****/
             DaysOfProgrammer dt = new DaysOfProgrammer();
-            dt.dayOfProgrammer(2017);
+            dt.dayOfProgrammer(1918);
 
 
         }
