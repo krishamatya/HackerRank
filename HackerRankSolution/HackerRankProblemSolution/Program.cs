@@ -64,8 +64,17 @@ namespace HackerRankProblemSolution
             */
 
             /****DayOfProgramer****/
-            DaysOfProgrammer dt = new DaysOfProgrammer();
+            /*DaysOfProgrammer dt = new DaysOfProgrammer();
             dt.dayOfProgrammer(1918);
+            */
+
+            /****BillDivision****/
+            /* BillDivision bill = new BillDivision();
+             bill.bonAppetite(new List<int> { 3, 10, 2, 9 }, 1, 7);*/
+            /**** SalesByMatch***/
+           /* SaleByMatch saleByMatch = new SaleByMatch();
+            SaleByMatch.sockMerchant(7, new List<int>() { 10, 20, 20, 10, 10, 30, 50, 10, 20 });
+           */
 
 
         }
