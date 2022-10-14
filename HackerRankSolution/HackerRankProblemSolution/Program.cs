@@ -72,9 +72,12 @@ namespace HackerRankProblemSolution
             /* BillDivision bill = new BillDivision();
              bill.bonAppetite(new List<int> { 3, 10, 2, 9 }, 1, 7);*/
             /**** SalesByMatch***/
-           /* SaleByMatch saleByMatch = new SaleByMatch();
-            SaleByMatch.sockMerchant(7, new List<int>() { 10, 20, 20, 10, 10, 30, 50, 10, 20 });
-           */
+            /* SaleByMatch saleByMatch = new SaleByMatch();
+             SaleByMatch.sockMerchant(7, new List<int>() { 10, 20, 20, 10, 10, 30, 50, 10, 20 });
+            */
+            ama1 a = new ama1();
+            //a.getHeaviestPackage(new List<int> {20,13,8,9});
+            a.find(new List<int> { 3,1,2 });
 
 
         }
