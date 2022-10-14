@@ -77,7 +77,7 @@ namespace HackerRankProblemSolution
             */
             ama1 a = new ama1();
             //a.getHeaviestPackage(new List<int> {20,13,8,9});
-            a.find(new List<int> { 3,1,2 });
+            a.find(new List<int> { 1,5,4 });
 
 
         }
