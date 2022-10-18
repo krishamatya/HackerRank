@@ -12,3 +12,10 @@ C:\MyDataStructureAlgoTutorial\HackerRank\HackerRankSolution\HackerRankProblemSo
 C:\MyDataStructureAlgoTutorial\HackerRank\HackerRankSolution\HackerRankProblemSolution\obj\Debug\HackerRankProblemSolution.csproj.CoreCompileInputs.cache
 C:\MyDataStructureAlgoTutorial\HackerRank\HackerRankSolution\HackerRankProblemSolution\obj\Debug\HackerRankProblemSolution.exe
 C:\MyDataStructureAlgoTutorial\HackerRank\HackerRankSolution\HackerRankProblemSolution\obj\Debug\HackerRankProblemSolution.pdb
+D:\Krisha\HackerRank\HackerRankSolution\HackerRankProblemSolution\obj\Debug\HackerRankProblemSolution.csproj.AssemblyReference.cache
+D:\Krisha\HackerRank\HackerRankSolution\HackerRankProblemSolution\obj\Debug\HackerRankProblemSolution.csproj.CoreCompileInputs.cache
+D:\Krisha\HackerRank\HackerRankSolution\HackerRankProblemSolution\obj\Debug\HackerRankProblemSolution.exe
+D:\Krisha\HackerRank\HackerRankSolution\HackerRankProblemSolution\obj\Debug\HackerRankProblemSolution.pdb
+D:\Krisha\HackerRank\HackerRankSolution\HackerRankProblemSolution\bin\Debug\HackerRankProblemSolution.exe.config
+D:\Krisha\HackerRank\HackerRankSolution\HackerRankProblemSolution\bin\Debug\HackerRankProblemSolution.exe
+D:\Krisha\HackerRank\HackerRankSolution\HackerRankProblemSolution\bin\Debug\HackerRankProblemSolution.pdb

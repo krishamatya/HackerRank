@@ -10,8 +10,8 @@ namespace HackerRankProblemSolution
     {
         static void Main(string[] args)
         {
-			
-			/**** Print PlusMinus ***/
+
+            /**** Print PlusMinus ***/
 
             /*
             List<int> arr = new List<int>() { -4, 3, -9, 0, 4, 1 };
@@ -27,7 +27,7 @@ namespace HackerRankProblemSolution
             */
 
             /*** MinMaxSumArray***/
-			/*
+            /*
             MinMaxSumArray minMax = new MinMaxSumArray();
             List<int> arr = new List<int> { 256741038, 623958417 ,467905213 ,714532089, 938071625 } ;
             minMax.MinMaxSumArrays(arr);
@@ -53,8 +53,10 @@ namespace HackerRankProblemSolution
             */
 
             /*****AppleOranges*****/
-            AppleOrange apple = new AppleOrange();
-            apple.countApplesAndOranges(7, 10, 4, 12, new List<int> { 2, 3, -4 }, new List<int> { 3, -2, -4 });
+            /*AppleOrange apple = new AppleOrange();
+            apple.countApplesAndOranges(7, 10, 4, 12, new List<int> { 2, 3, -4 }, new List<int> { 3, -2, -4 });*/
+            BetweenTwoSets between = new BetweenTwoSets();
+            between.getTotalXX(new List<int> { 2,6}, new List<int> {24,36 });
         }
     }
 }

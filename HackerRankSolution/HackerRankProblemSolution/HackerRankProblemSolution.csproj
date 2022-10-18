@@ -45,10 +45,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppleOrange.cs" />
+    <Compile Include="BetweenTwoSets.cs" />
     <Compile Include="BirthdayCandles.cs" />
+    <Compile Include="MinMaxSumArray.cs" />
     <Compile Include="NearestMultipleOf5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StairCase.cs" />
     <Compile Include="TimeConversion.cs" />
   </ItemGroup>
   <ItemGroup>
