@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackerRankProblemSolution
 {
-    public class AppleOrange
+   public class AppleOrange
     {
         public  void countApplesAndOranges(int s, int t, int a, int b, List<int> apples, List<int> oranges)
         {
@@ -29,7 +29,5 @@ namespace HackerRankProblemSolution
             Console.WriteLine(TotalAppleCount);
             Console.WriteLine(TotalOrangeCount);
         }
-
-
     }
 }

@@ -6,19 +6,28 @@ using System.Threading.Tasks;
 
 namespace HackerRankProblemSolution
 {
-  public  class NearestMultipleOf5
+   public class NearestMultipleOf5
     {
-        public  string NearestMultiple(int x1, int v1, int x2, int v2)
-        {
-            if (v2 >= v1)
-                return ("NO");
-            else
-                 if ((x2 - x1) % (v1 - v2) == 0)
-                return ("YES");
-            else
-                return ("NO");
-
-
+        public List<int> NearestMultiple(List<int> grades) {
+            List<int> finalGrades = new List<int>();
+            grades.ForEach(x => {
+                if (x >= 38) {
+                    int nearestMultiple = x + (5 - (x % 5));
+                    if ((nearestMultiple - x) < 3)
+                    {
+                        finalGrades.Add(nearestMultiple);
+                        Console.WriteLine(nearestMultiple);
+                    }
+                    else if ((nearestMultiple - x) >= 3) {
+                        finalGrades.Add(x);
+                        Console.WriteLine(x);
+                    }
+                } else {
+                    finalGrades.Add(x);
+                    Console.WriteLine(x);
+                }
+            });
+            return finalGrades;
         }
     }
 }
