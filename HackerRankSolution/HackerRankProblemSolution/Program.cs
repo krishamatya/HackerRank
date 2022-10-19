@@ -97,10 +97,15 @@ namespace HackerRankProblemSolution
             /* SaleByMatch saleByMatch = new SaleByMatch();
              SaleByMatch.sockMerchant(7, new List<int>() { 10, 20, 20, 10, 10, 30, 50, 10, 20 });
             */
+            /**** Amazon Question****/
+            /*
             ama1 a = new ama1();
             //a.getHeaviestPackage(new List<int> {20,13,8,9});
             a.find(new List<int> { 1,5,4 });
+            */
 
+            DrawingBook drawing = new DrawingBook();
+            drawing.pageCount(4,4);
 
         }
     }
