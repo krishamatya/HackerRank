@@ -11,6 +11,28 @@ namespace HackerRankProblemSolution
         static void Main(string[] args)
         {
 
+            /**** Print PlusMinus ***/
+
+            /*
+            List<int> arr = new List<int>() { -4, 3, -9, 0, 4, 1 };
+            PlusMinus plusMinus = new PlusMinus();
+            plusMinus.FindPlusMinus(arr);
+            */
+
+            /*** StairCase***/
+
+            /*
+            StairCase stairCase = new StairCase();
+            stairCase.StairCasePrint(6);
+            */
+
+            /*** MinMaxSumArray***/
+            /*
+            MinMaxSumArray minMax = new MinMaxSumArray();
+            List<int> arr = new List<int> { 256741038, 623958417 ,467905213 ,714532089, 938071625 } ;
+            minMax.MinMaxSumArrays(arr);
+			*/
+
             /********BirthdayCandle*******/
             /*
             BirthdayCandles birthdayCandles = new BirthdayCandles();
@@ -75,10 +97,15 @@ namespace HackerRankProblemSolution
             /* SaleByMatch saleByMatch = new SaleByMatch();
              SaleByMatch.sockMerchant(7, new List<int>() { 10, 20, 20, 10, 10, 30, 50, 10, 20 });
             */
+            /**** Amazon Question****/
+            /*
             ama1 a = new ama1();
             //a.getHeaviestPackage(new List<int> {20,13,8,9});
             a.find(new List<int> { 1,5,4 });
+            */
 
+            DrawingBook drawing = new DrawingBook();
+            drawing.pageCount(4,4);
 
         }
     }
