@@ -104,8 +104,8 @@ namespace HackerRankProblemSolution
             a.find(new List<int> { 1,5,4 });
             */
 
-            DrawingBook drawing = new DrawingBook();
-            drawing.pageCount(4,4);
+            //DrawingBook drawing = new DrawingBook();
+            //drawing.pageCount(6,5);
 
         }
     }

@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ama1.cs" />
     <Compile Include="AppleOrange.cs" />
     <Compile Include="BetweenTwoSets.cs" />
     <Compile Include="BillDivision.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="DaysOfProgrammer.cs" />
     <Compile Include="DivisibleSumPair.cs" />
     <Compile Include="DrawingBook.cs" />
+    <Compile Include="ElectronicShop.cs" />
     <Compile Include="MigratoryBirds.cs" />
     <Compile Include="MinMaxSumArray.cs" />
     <Compile Include="NearestMultipleOf5.cs" />
