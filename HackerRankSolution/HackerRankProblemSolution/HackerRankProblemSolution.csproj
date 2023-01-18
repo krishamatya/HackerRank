@@ -54,6 +54,7 @@
     <Compile Include="DivisibleSumPair.cs" />
     <Compile Include="DrawingBook.cs" />
     <Compile Include="ElectronicShop.cs" />
+    <Compile Include="MagicSquare.cs" />
     <Compile Include="MigratoryBirds.cs" />
     <Compile Include="MinMaxSumArray.cs" />
     <Compile Include="NearestMultipleOf5.cs" />
