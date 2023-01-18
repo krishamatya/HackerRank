@@ -107,13 +107,13 @@ namespace HackerRankProblemSolution
             //DrawingBook drawing = new DrawingBook();
             //drawing.pageCount(6,5);
 
-            MagicSquare ms = new MagicSquare();
+           /* MagicSquare ms = new MagicSquare();
             ms.formingMagicSquare(new List<List<int>>() {
                 // ... and fill it line by line 
               new List<int>() {5, 3,  4 },
               new List<int>() {  1,5, 8 },
               new List<int>() { 6,4, 2},
-            });
+            });*/
         }
     }
 }
