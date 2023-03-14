@@ -50,6 +50,7 @@
     <Compile Include="BillDivision.cs" />
     <Compile Include="BirthdayCandles.cs" />
     <Compile Include="BreakingRecords.cs" />
+    <Compile Include="CountingValleys.cs" />
     <Compile Include="DaysOfProgrammer.cs" />
     <Compile Include="DivisibleSumPair.cs" />
     <Compile Include="DrawingBook.cs" />
