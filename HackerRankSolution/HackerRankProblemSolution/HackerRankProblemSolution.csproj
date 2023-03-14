@@ -58,6 +58,7 @@
     <Compile Include="MigratoryBirds.cs" />
     <Compile Include="MinMaxSumArray.cs" />
     <Compile Include="NearestMultipleOf5.cs" />
+    <Compile Include="PickingNumbers.cs" />
     <Compile Include="PlusMinus.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
