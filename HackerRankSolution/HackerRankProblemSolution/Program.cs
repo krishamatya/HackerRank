@@ -121,8 +121,15 @@ namespace HackerRankProblemSolution
                new List<int>() {  1,5, 8 },
                new List<int>() { 6,4, 2},
              });*/
+
+            /*PickingNumbers
             PickingNumbers pickingNumbers = new PickingNumbers();
             pickingNumbers.pickingNumbers(new List<int>() { 4 ,6, 5 ,3, 3, 1 });
+            */
+            /*ClimbingLeaderBoard*/
+            ClimbingLeaderBoard climbingLeaderBoard = new ClimbingLeaderBoard();
+            climbingLeaderBoard.climbingLeaderboard(new List<int>() {100,100,50,40,20,10 }, new List<int>() {5,25,50,120 });
+
         }
     }
 }
