@@ -1,0 +1,16 @@
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\bin\Debug\net5.0\InterviewPractise.exe
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\bin\Debug\net5.0\InterviewPractise.deps.json
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\bin\Debug\net5.0\InterviewPractise.runtimeconfig.json
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\bin\Debug\net5.0\InterviewPractise.runtimeconfig.dev.json
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\bin\Debug\net5.0\InterviewPractise.dll
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\bin\Debug\net5.0\ref\InterviewPractise.dll
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\bin\Debug\net5.0\InterviewPractise.pdb
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\obj\Debug\net5.0\InterviewPractise.csproj.AssemblyReference.cache
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\obj\Debug\net5.0\InterviewPractise.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\obj\Debug\net5.0\InterviewPractise.AssemblyInfoInputs.cache
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\obj\Debug\net5.0\InterviewPractise.AssemblyInfo.cs
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\obj\Debug\net5.0\InterviewPractise.csproj.CoreCompileInputs.cache
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\obj\Debug\net5.0\InterviewPractise.dll
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\obj\Debug\net5.0\ref\InterviewPractise.dll
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\obj\Debug\net5.0\InterviewPractise.pdb
+C:\MyDataStructureAlgoTutorial\InterviewPractiseZeroLevel\InterviewPractise\obj\Debug\net5.0\InterviewPractise.genruntimeconfig.cache
