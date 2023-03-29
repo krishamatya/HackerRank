@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyDataStructureAlgoTutorial\\InterviewPractiseZeroLevel\\InterviewPractise\\InterviewPractise.csproj",
+      "projectUniqueName": "C:\\MyDataStructureAlgoTutorial\\HackerRank\\InterviewPractiseZeroLevel\\InterviewPractise\\InterviewPractise.csproj",
       "projectName": "InterviewPractise",
-      "projectPath": "C:\\MyDataStructureAlgoTutorial\\InterviewPractiseZeroLevel\\InterviewPractise\\InterviewPractise.csproj",
+      "projectPath": "C:\\MyDataStructureAlgoTutorial\\HackerRank\\InterviewPractiseZeroLevel\\InterviewPractise\\InterviewPractise.csproj",
       "packagesPath": "C:\\Users\\kamatya\\.nuget\\packages\\",
-      "outputPath": "C:\\MyDataStructureAlgoTutorial\\InterviewPractiseZeroLevel\\InterviewPractise\\obj\\",
+      "outputPath": "C:\\MyDataStructureAlgoTutorial\\HackerRank\\InterviewPractiseZeroLevel\\InterviewPractise\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
