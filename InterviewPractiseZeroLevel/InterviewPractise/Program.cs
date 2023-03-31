@@ -33,12 +33,26 @@ namespace InterviewPractise
             #region MiniMaxSum
             MinMax m = new MinMax();
             m.MiniMaxSum(new List<int>() { 256741038 ,623958417, 467905213, 714532089, 938071625 });
-            #endregions*/
+            #endregions
 
             #region BirthdayCandles
             BirthdayCandle candles = new BirthdayCandle();
             candles.birthdayCakeCandles(new List<int>() { 4, 4, 1, 3 });
             #endregion
+
+            #region TimeConvergence
+            TimeConvergence t = new TimeConvergence();
+            t.timeConversion("07:05:45PM");
+            #region GradingStudent
+            GradingStudent g = new GradingStudent();
+            g.gradingStudents(new List<int>() {73,67,38,33 });
+            #endregion
+
+            #region AppleOrange
+            AppleOrange appleOrange = new AppleOrange();
+            appleOrange.countApplesAndOranges(7, 11, 5, 15, new List<int>() { -2, 2, 1 }, new List<int>() { 5, -6 });
+            #endregion*/
+
         }
 
     }
