@@ -168,3 +168,7 @@ C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Release\ne
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Release\netcoreapp3.1\SignalRAuth.dll
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Release\netcoreapp3.1\SignalRAuth.pdb
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Release\netcoreapp3.1\SignalRAuth.genruntimeconfig.cache
+C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\libman.json
+C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\package-lock.json
+C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\package.json
+C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\System.Net.WebSockets.WebSocketProtocol.dll

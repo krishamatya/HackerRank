@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Logging;
 using SignalRAuth.Areas.Identity.Data;
 
@@ -16,11 +17,12 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<SignalRAuthUser> _signInManager;
         private readonly ILogger<LogoutModel> _logger;
-
-        public LogoutModel(SignInManager<SignalRAuthUser> signInManager, ILogger<LogoutModel> logger)
+        private readonly IHubContext<SignalrHub> _hubContext;
+        public LogoutModel(SignInManager<SignalRAuthUser> signInManager, ILogger<LogoutModel> logger,IHubContext<SignalrHub> hubContext)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _hubContext = hubContext;
         }
 
         public void OnGet()
@@ -29,6 +31,7 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPost(string returnUrl = null)
         {
+          
             await _signInManager.SignOutAsync();
             _logger.LogInformation("User logged out.");
             if (returnUrl != null)
