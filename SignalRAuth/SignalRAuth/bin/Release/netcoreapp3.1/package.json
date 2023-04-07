@@ -1,15 +1,15 @@
 {
-  "name": "signalrauth",
-  "version": "1.0.0",
+  "author": "",
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.27"
+  },
   "description": "",
+  "keywords": [],
+  "license": "ISC",
   "main": "index.js",
+  "name": "signalrauth",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@aspnet/signalr": "^1.0.27"
-  }
+  "version": "1.0.0"
 }

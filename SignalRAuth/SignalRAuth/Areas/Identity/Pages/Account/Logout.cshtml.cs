@@ -17,12 +17,12 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<SignalRAuthUser> _signInManager;
         private readonly ILogger<LogoutModel> _logger;
-        private readonly IHubContext<SignalrHub> _hubContext;
-        public LogoutModel(SignInManager<SignalRAuthUser> signInManager, ILogger<LogoutModel> logger,IHubContext<SignalrHub> hubContext)
+       
+        public LogoutModel(SignInManager<SignalRAuthUser> signInManager, ILogger<LogoutModel> logger)
         {
             _signInManager = signInManager;
             _logger = logger;
-            _hubContext = hubContext;
+           
         }
 
         public void OnGet()

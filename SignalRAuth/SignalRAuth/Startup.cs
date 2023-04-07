@@ -30,7 +30,7 @@ namespace SignalRAuth
                 // Cookie settings
                 options.Cookie.HttpOnly = true;
                 options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
-                options.LoginPath = "/Account/Login";
+                options.LoginPath = "/Identity/Account/Login";
                
                 options.SlidingExpiration = true;
             });

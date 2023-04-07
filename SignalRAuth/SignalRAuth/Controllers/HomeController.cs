@@ -23,15 +23,28 @@ namespace SignalRAuth.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            if (_signInManager.Context.User.Identity.IsAuthenticated)
+            {
+                return View();
+            }
+            else {
+                return LocalRedirect("/Identity/Account/Login");
+            }
         }
 
         public IActionResult Privacy()
         {
             return View();
         }
-        public ActionResult IsStillLoggedIn() {
-           
+        [HttpPost]
+        public JsonResult IsStillLoggedIn() {
+            if (_signInManager.Context.User.Identity.IsAuthenticated)
+            {
+                return Json(true);
+            }
+            else {
+                return Json(false);
+            }
 
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
