@@ -11,13 +11,7 @@ namespace SignalRAuth
             new ConnectionMapping<string>();
 
         public async Task SendMessage(string user, string message)
-        {
-            int d = 123;
-            byte a = (byte)d;
-            for (int sa = 0; sa < a; sa++)
-            {
-
-            }
+        {           
             await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
         public override async Task OnConnectedAsync()

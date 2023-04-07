@@ -28,7 +28,20 @@ document.getElementById("sendButton").addEventListener("click", function (event)
     });
     event.preventDefault();
 });
-document.getElementById("logout").addEventListener("click", function (event)  { connection.hub.stop();});
+document.getElementById("logout").addEventListener("click", function (event) { connection.hub.stop(); });
+function ensureStillLoggedIn() {
+    if (document.visibilityState === "visible") {
+        // Tab is now active, check if we're still logged in
+        fetch("/Home/IsStillLoggedIn", { credentials: "same-origin" })
+            .then(response => {
+                if (response === "false") {
+                    window.location = "/Home/Index";
+                }
+            });
+    }
+}
+
+document.addEventListener("visibilitychange", ensureStillLoggedIn);
    
 
 
