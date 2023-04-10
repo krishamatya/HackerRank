@@ -97,3 +97,10 @@ div.card-content {
 div.login-form-icon {
     text-align: center;
 }
+.textareas {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+  
+}
