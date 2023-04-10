@@ -10,8 +10,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
+using NLog;
 using SignalRAuth.Areas.Identity.Data;
+using Microsoft.Extensions.Logging;
 
 namespace SignalRAuth.Areas.Identity.Pages.Account
 {
@@ -21,8 +22,8 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
         private readonly UserManager<SignalRAuthUser> _userManager;
         private readonly SignInManager<SignalRAuthUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
-
-        public LoginModel(SignInManager<SignalRAuthUser> signInManager, 
+      
+        public LoginModel(SignInManager<SignalRAuthUser> signInManager,
             ILogger<LoginModel> logger,
             UserManager<SignalRAuthUser> userManager)
         {
@@ -84,8 +85,8 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
                 
                 if (result.Succeeded)
                 {
-                   
-                    _logger.LogInformation("User logged in.");
+
+                    _logger.LogInformation("Logged");
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
@@ -94,7 +95,7 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
                 }
                 if (result.IsLockedOut)
                 {
-                    _logger.LogWarning("User account locked out.");
+                    _logger.LogError("User account locked out.");
                     return RedirectToPage("./Lockout");
                 }
                 else

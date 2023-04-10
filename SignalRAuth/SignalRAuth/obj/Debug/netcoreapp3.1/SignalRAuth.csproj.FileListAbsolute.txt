@@ -309,7 +309,6 @@ C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netc
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.csproj.AssemblyReference.cache
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.GeneratedMSBuildEditorConfig.editorconfig
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.AssemblyInfoInputs.cache
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.AssemblyInfo.cs
