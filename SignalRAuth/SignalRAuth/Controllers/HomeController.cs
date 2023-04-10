@@ -15,17 +15,20 @@ namespace SignalRAuth.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly SignInManager<SignalRAuthUser> _signInManager;
-        public HomeController(SignInManager<SignalRAuthUser> signInManager,ILogger<HomeController> logger)
+        private readonly UserManager<SignalRAuthUser> _userManager;
+        public HomeController(SignInManager<SignalRAuthUser> signInManager,ILogger<HomeController> logger,UserManager<SignalRAuthUser> userManager)
         {
             _logger = logger;
             _signInManager = signInManager;
+            _userManager = userManager;
         }
 
         public IActionResult Index()
         {
             if (_signInManager.Context.User.Identity.IsAuthenticated)
             {
-                return View();
+
+               return View();
             }
             else {
                 return LocalRedirect("/Identity/Account/Login");
@@ -40,10 +43,10 @@ namespace SignalRAuth.Controllers
         public JsonResult IsStillLoggedIn() {
             if (_signInManager.Context.User.Identity.IsAuthenticated)
             {
-                return Json(true);
+                return Json(false);
             }
             else {
-                return Json(false);
+                return Json(true);
             }
 
         }

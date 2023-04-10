@@ -33,5 +33,28 @@ document.getElementById("logout").addEventListener("click", function (event) {
     connection.hub.stop();
 });
 
+function ensureStillLoggedIn() {
+    if (document.visibilityState === "visible") {
+        // Tab is now active, check if we're still logged in
+        $.ajax({
+            type: "POST",
+            url: "/Home/IsStillLoggedIn",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data) {
+                if (data == true) {
+                    window.location = "/Identity/Account/Login";
+                }
+            },
+            error: function () {
+                alert("Error occured!!")
+            }
+        });
+    }
+}
+
+document.addEventListener("visibilitychange", ensureStillLoggedIn);
+
+
 
 

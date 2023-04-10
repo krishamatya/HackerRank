@@ -1,12 +1,15 @@
-﻿@{
+﻿
+@using Microsoft.AspNetCore.Identity
+@using SignalRAuth.Areas.Identity.Data
+@{
     ViewData["Title"] = "Home Page";
 }
 
-
+@inject UserManager<SignalRAuthUser> UserManager
 <div class="container">
     <div class="row p-1">
         <div class="col-1">User</div>
-        <div class="col-5"><input type="text" id="userInput" /></div>
+        <div class="col-5"><input type="text" id="userInput" value="@UserManager.GetUserAsync(User).Result.FirstName" /></div>
     </div>
     <div class="row p-1">
         <div class="col-1">Message</div>
