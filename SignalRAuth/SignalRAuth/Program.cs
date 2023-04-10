@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using NLog;
 using NLog.Web;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,14 @@ namespace SignalRAuth
     {
         public static void Main(string[] args)
         {
-            var logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
+           
+            var config = new ConfigurationBuilder().Build();
+
+            var logger = LogManager.Setup()
+                                   .RegisterNLogWeb(config)
+                                   .LoadConfigurationFromFile("nlog.config")
+                                   .GetCurrentClassLogger();
+
             try
             {
                 logger.Debug("init main");
@@ -42,8 +50,8 @@ namespace SignalRAuth
                 }).ConfigureLogging(logging =>
                 {
                     logging.ClearProviders();
-                    logging.SetMinimumLevel(LogLevel.Trace);
+                    logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
                 })
-        .UseNLog();
+                .UseNLog();
     }
 }

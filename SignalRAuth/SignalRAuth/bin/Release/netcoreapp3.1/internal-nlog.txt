@@ -1,0 +1,6 @@
+2023-04-10 21:15:58.0006 Info Message Template Auto Format enabled
+2023-04-10 21:15:58.0204 Info Loading assembly: NLog.Web.AspNetCore
+2023-04-10 21:15:58.1410 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-04-10 21:15:58.1410 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=AllAsyncWrapper)
+2023-04-10 21:15:58.1768 Info Validating config: TargetNames=AllAsyncWrapper, ConfigItems=39, FilePath=D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\nlog.config
+2023-04-10 21:16:00.3540 Info Validating config: TargetNames=AllAsyncWrapper, ConfigItems=39, FilePath=D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\nlog.config

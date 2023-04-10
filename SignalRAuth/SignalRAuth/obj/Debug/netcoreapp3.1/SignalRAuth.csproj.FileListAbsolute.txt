@@ -171,7 +171,6 @@ D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth
 D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.Views.pdb
 D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.csproj.CopyComplete
 D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.genruntimeconfig.cache
-D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.csproj.AssemblyReference.cache
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\appsettings.json
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\libman.json
@@ -346,3 +345,7 @@ C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netc
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.dll
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.pdb
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.genruntimeconfig.cache
+D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\nlog.config
+D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\NLog.dll
+D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
