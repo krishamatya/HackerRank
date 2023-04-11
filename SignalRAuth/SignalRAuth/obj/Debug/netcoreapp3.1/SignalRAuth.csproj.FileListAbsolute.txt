@@ -353,4 +353,4 @@ C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netc
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\NLog.dll
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
-C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Debug\netcoreapp3.1\SignalRAuth.csproj.AssemblyReference.cache
+C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNet.SignalR.Core.dll
