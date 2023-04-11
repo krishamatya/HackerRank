@@ -17,11 +17,12 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<SignalRAuthUser> _signInManager;
         private readonly ILogger<LogoutModel> _logger;
-       
-        public LogoutModel(SignInManager<SignalRAuthUser> signInManager, ILogger<LogoutModel> logger)
+        private readonly UserManager<SignalRAuthUser> _userManager;
+        public LogoutModel(SignInManager<SignalRAuthUser> signInManager, ILogger<LogoutModel> logger,UserManager<SignalRAuthUser> userManager)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _userManager = userManager;
            
         }
 
@@ -31,10 +32,11 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPost(string returnUrl = null)
         {
-          
 
+            string name = _userManager.GetUserAsync(User).Result.FirstName;
             await _signInManager.SignOutAsync();
-            _logger.LogInformation("User logged out.");
+            _logger.LogInformation("LoggedOutUser:"+ name);
+            _logger.LogInformation("LoggedOutTime" + DateTime.Now);
             if (returnUrl != null)
             {
                 return LocalRedirect(returnUrl);

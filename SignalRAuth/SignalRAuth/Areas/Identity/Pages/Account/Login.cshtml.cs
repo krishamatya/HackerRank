@@ -86,7 +86,8 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
 
-                    _logger.LogInformation("Logged");
+                    _logger.LogInformation("LoggedInUser:"+ Input.Email);
+                    _logger.LogInformation("LoggedInTime" + DateTime.Now);
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
