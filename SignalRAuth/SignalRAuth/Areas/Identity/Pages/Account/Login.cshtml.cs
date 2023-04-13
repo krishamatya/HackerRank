@@ -66,7 +66,11 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
             returnUrl = returnUrl ?? Url.Content("~/");
             if (!_signInManager.Context.User.Identity.IsAuthenticated)
             {
-
+                string username = string.Empty;
+                if (TempData["LoggedInUser"] != null) {
+                    username = (string)TempData["LoggedInUser"];
+                }
+                _logger.LogInformation("LoggedOutUser" + username);
                 _logger.LogInformation("LoggedOutTime" + DateTime.Now);
             }
 
@@ -90,7 +94,7 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
                 
                 if (result.Succeeded)
                 {
-
+                    TempData["LoggedInUser"] = Input.Email;
                     _logger.LogInformation("LoggedInUser:"+ Input.Email);
                     _logger.LogInformation("LoggedInTime" + DateTime.Now);
                     return LocalRedirect(returnUrl);
