@@ -64,13 +64,18 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
             }
 
             returnUrl = returnUrl ?? Url.Content("~/");
+            if (!_signInManager.Context.User.Identity.IsAuthenticated)
+            {
+
+                _logger.LogInformation("LoggedOutTime" + DateTime.Now);
+            }
 
             // Clear the existing external cookie to ensure a clean login process
             await HttpContext.SignOutAsync(IdentityConstants.ExternalScheme);
 
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
-
-            ReturnUrl = returnUrl;
+           
+                ReturnUrl = returnUrl;
         }
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)

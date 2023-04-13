@@ -31,9 +31,9 @@ namespace SignalRAuth
             {
                 // Cookie settings
                 options.Cookie.HttpOnly = true;
-                options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
-                options.LoginPath = "/Identity/Account/Login";
-               
+                options.ExpireTimeSpan = TimeSpan.FromSeconds(20);
+                options.LogoutPath = "/Identity/Account/Logout";
+                options.LoginPath = "/Identity/Account/Login";               
                 options.SlidingExpiration = true;
             });
             services.AddSignalR();

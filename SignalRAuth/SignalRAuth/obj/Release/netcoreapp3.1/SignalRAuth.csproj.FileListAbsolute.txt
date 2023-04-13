@@ -354,3 +354,4 @@ D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\NLog.dll
 D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\NLog.Extensions.Logging.dll
 D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\NLog.Web.AspNetCore.dll
 D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\obj\Release\netcoreapp3.1\SignalRAuth.csproj.AssemblyReference.cache
+D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\Microsoft.AspNet.SignalR.Core.dll
