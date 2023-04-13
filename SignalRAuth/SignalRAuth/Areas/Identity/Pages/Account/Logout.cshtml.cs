@@ -35,7 +35,8 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
 
             string name = _userManager.GetUserAsync(User).Result.FirstName;
             await _signInManager.SignOutAsync();
-            _logger.LogInformation("LoggedOutUser:"+ name);
+            
+            _logger.LogInformation("LoggedOutUser:"+ _userManager.GetUserAsync(User).Result.Email);
             _logger.LogInformation("LoggedOutTime" + DateTime.Now);
             if (returnUrl != null)
             {

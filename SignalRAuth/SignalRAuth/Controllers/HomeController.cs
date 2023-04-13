@@ -27,7 +27,6 @@ namespace SignalRAuth.Controllers
         {
             if (_signInManager.Context.User.Identity.IsAuthenticated)
             {
-
                return View();
             }
             else {
@@ -43,12 +42,10 @@ namespace SignalRAuth.Controllers
         public JsonResult IsStillLoggedIn() {
             if (_signInManager.Context.User.Identity.IsAuthenticated)
             {
-               
                 return Json(false);
             }
             else {
-                
-            
+               
                 return Json(true);
             }
 

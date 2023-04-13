@@ -69,9 +69,10 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
                 string username = string.Empty;
                 if (TempData["LoggedInUser"] != null) {
                     username = (string)TempData["LoggedInUser"];
+                    _logger.LogInformation("LoggedOutUser" + username);
+                    _logger.LogInformation("LoggedOutTime" + DateTime.Now);
                 }
-                _logger.LogInformation("LoggedOutUser" + username);
-                _logger.LogInformation("LoggedOutTime" + DateTime.Now);
+                
             }
 
             // Clear the existing external cookie to ensure a clean login process
@@ -94,7 +95,7 @@ namespace SignalRAuth.Areas.Identity.Pages.Account
                 
                 if (result.Succeeded)
                 {
-                    TempData["LoggedInUser"] = Input.Email;
+                    TempData["LoggedInUser"] =Input.Email;
                     _logger.LogInformation("LoggedInUser:"+ Input.Email);
                     _logger.LogInformation("LoggedInTime" + DateTime.Now);
                     return LocalRedirect(returnUrl);

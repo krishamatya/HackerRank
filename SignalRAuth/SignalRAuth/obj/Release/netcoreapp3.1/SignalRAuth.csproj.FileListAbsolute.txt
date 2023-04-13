@@ -355,3 +355,5 @@ D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\NLog.Exte
 D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\NLog.Web.AspNetCore.dll
 D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\obj\Release\netcoreapp3.1\SignalRAuth.csproj.AssemblyReference.cache
 D:\Krisha\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\Microsoft.AspNet.SignalR.Core.dll
+C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\bin\Release\netcoreapp3.1\Microsoft.AspNet.SignalR.Core.dll
+C:\MyDataStructureAlgoTutorial\HackerRank\SignalRAuth\SignalRAuth\obj\Release\netcoreapp3.1\SignalRAuth.csproj.AssemblyReference.cache
